@@ -1,4 +1,5 @@
 #include <iostream>
+// defined max value for the size of stack
 #define max 10
 using namespace std;
 int stack[max],top=-1,item,item1;
@@ -39,6 +40,7 @@ void push()
 	}
 }
 void pop()
+	// to delete the button 
 {
 	if(top==0)
 	{
